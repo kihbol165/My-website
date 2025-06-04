@@ -4,7 +4,7 @@ body{
 .head1{
   text-align: center;
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 7px;
   
@@ -12,7 +12,7 @@ body{
 .p1{
   
   text-align: center;
-  font-size: 11px;
+  font-size: 0.6rem;
   margin-top: 0px;
   opacity: 0.4;
   font-weight: 500;
@@ -21,7 +21,7 @@ body{
 }
 .box{
   background-color: antiquewhite;
-  width: 25%;
+  width: 245px;
   margin-right: auto;
   margin-left: auto;
   height: 360px;
@@ -76,7 +76,7 @@ body{
 }
 .name{
   text-align: center;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -84,7 +84,7 @@ body{
 }
 .frontend{
   text-align: center;
-  font-size: 8px;
+  font-size: 0.5rem;
   font-weight: 500;
   margin-top: 1.5px;
   color: saddlebrown;
@@ -93,7 +93,7 @@ body{
 .short-cv{
   text-align: center;
   opacity: 0.5;
-  font-size: 7px;
+  font-size: 0.4375rem;
   margin-top: 3px;
   margin-right: 15px;
   margin-left: 15px;
@@ -113,7 +113,7 @@ body{
   margin-right: 12px;
   margin-left: 12px;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 0px;
@@ -127,7 +127,7 @@ body{
   margin-left: 7.5px;
   opacity: 0.5;
   font-weight: 700;
-  font-size: 7.5px;
+  font-size: 0.46875rem;
   line-height: 1px;
   margin-bottom: 10px;
 }
@@ -145,7 +145,7 @@ body{
   margin-bottom: 1px;
 }
 .info{
-  font-size: 7px;
+  font-size: 0.4375rem;
   font-weight: 500;
   opacity: 0.5;
   margin-top: 2px;
@@ -155,12 +155,10 @@ body{
 
 .icons{
   background-color: rgba(222, 184, 135, 1);
-  height: 9px;
-  width: 9px;
+  font-size: 0.5625rem;
   border-radius: 50%;
   margin: 2px;
-  padding: 5px;
-  
+  padding: 4px;
 }
 .bottom-links{
   display: flex;
@@ -169,15 +167,18 @@ body{
   padding-bottom: 5px;
   
 }
-.under-icons{
-  height: 9px;
-  width: 9px;
+.link-icon{
+  
+  font-size: 0.5625rem;
   border-radius: 50%;
   background-color: rgba(205, 133, 63, 0.8);
   margin: 2px;
-  padding: 5px;
+  padding: 4px;
   margin-bottom: 5px;
-  
+  margin-top: 5px;
+}
+.link-icon a{
+  color: black;
 }
 .last-buttons{
   display: flex;
@@ -188,7 +189,7 @@ body{
 .connect-btn{
   border-radius: 10px;
   background: linear-gradient(to right , burlywood,saddlebrown);
-  font-size: 10px;
+  font-size: 0.625rem;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-right: 25px;
@@ -208,7 +209,7 @@ body{
   background-color: antiquewhite;
   height: 25px;
   width: 40%px;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 600;
   border: 1.5px solid rgba(222, 184, 135, 0.5);
   padding-top: 3px;
